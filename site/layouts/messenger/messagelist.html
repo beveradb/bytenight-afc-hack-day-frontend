@@ -7,7 +7,11 @@
   <ul>
     {{ $urlPre := "https://lit-savannah-76291.herokuapp.com" }}
     {{ $serviceUsersJSON := getJSON $urlPre "/" }}
-    {{ printf "%#v" $serviceUsersJSON }}
+    {{ range $serviceUsersJSON }}
+      {{ if .phone }}
+        <li class="serviceUser"><a href="/messenger/" target="_blank">{{ .phone }}</a></li>
+      {{ end }}
+    {{ end }}
   </ul>
 </div>
 
