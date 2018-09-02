@@ -1,12 +1,8 @@
-# Example site for restaurants built with Victor Hugo
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/restaurant-template-cms&stack=cms)
+# Multi-channel messenger concept for Action for Children
 
-![homepage of an example restaurant website](https://s3-us-west-1.amazonaws.com/publis-brian-images/restaurant.jpg)
+Created for Byte Night [Hack for the Homeless](https://hackforhomeless.wishpond.com/bytenight2018/) 2018.
 
-This is the repository for the example site featured in the [Coding Modern Websites with the JAMstack](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1/) tutorial.
-
-To install and run the example site locally, here’s what you’ll need:
+Multi-channel messenger system to help with communicating with vulnerable people.
 
 ## System Requirements
 
