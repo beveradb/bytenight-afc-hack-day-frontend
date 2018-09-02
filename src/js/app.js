@@ -20,13 +20,18 @@ const exampleServiceUsers = {
     },
     "service-users": {
         "whatsapp:+447796471999": {
-            "name": "",
+            "name": "Joe or Mary",
             "phone": "whatsapp:+447796471999",
             "messages": [
                 {
                     "from": "whatsapp:+447796471999",
                     "to": "whatsapp:+441618507453",
                     "text": "A new message"
+                },
+                {
+                    "from": "whatsapp:+447796471999",
+                    "to": "whatsapp:+441618507453",
+                    "text": "A test message"
                 }
             ]
         }
