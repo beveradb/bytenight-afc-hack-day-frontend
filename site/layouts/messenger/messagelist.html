@@ -1,0 +1,14 @@
+{{ partial "header" . }}
+
+
+<div class="content container">
+  {{ .Content }}
+
+  <ul>
+    {{ $urlPre := "https://lit-savannah-76291.herokuapp.com" }}
+    {{ $serviceUsersJSON := getJSON $urlPre "/" }}
+    {{ printf "%#v" $serviceUsersJSON }}
+  </ul>
+</div>
+
+{{ partial "footer" . }}

@@ -12,3 +12,35 @@ const mySiema = new Siema({
 
 document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
 document.querySelector('.next').addEventListener('click', () => mySiema.next());
+
+const exampleServiceUsers = {
+    "staff-user": {
+        "phone": "whatsapp:+441618507453",
+        "name": "Jane Bloggs"
+    },
+    "service-users": {
+        "whatsapp:+447796471999": {
+            "name": "",
+            "phone": "whatsapp:+447796471999",
+            "messages": [
+                {
+                    "from": "whatsapp:+447796471999",
+                    "to": "whatsapp:+441618507453",
+                    "text": "A new message"
+                }
+            ]
+        }
+    }
+};
+
+const exampleMessage = {
+    "name": "",
+    "phone": "whatsapp:+447796471999",
+    "messages": [
+        {
+            "from": "whatsapp:+447796471999",
+            "to": "whatsapp:+441618507453",
+            "text": "A new message"
+        }
+    ]
+};
