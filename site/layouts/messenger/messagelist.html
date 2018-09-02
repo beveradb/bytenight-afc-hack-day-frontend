@@ -9,7 +9,7 @@
     {{ $serviceUsersJSON := getJSON $urlPre "/" }}
     {{ range $serviceUsersJSON }}
       {{ if .phone }}
-        <li class="serviceUser"><a href="/messenger/" target="_blank">{{ .phone }}</a></li>
+        <li class="serviceUser"><a href="/messenger/" target="_blank">{{ .name }} ({{ .phone }})</a></li>
       {{ end }}
     {{ end }}
   </ul>
