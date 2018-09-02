@@ -772,3 +772,13 @@ video {
   left: 0;
   z-index: -1;
 }
+
+.serviceUser {
+  display: block;
+  background: #f6f6f6;
+  padding: 50px 100px;
+}
+
+.subcontact {
+  font-size: smaller;
+}
